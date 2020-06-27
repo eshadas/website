@@ -3,11 +3,13 @@
 
 <head>
     <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Piedra&family=Playfair+Display:ital,wght@1,600&family=Satisfy&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,30 +17,24 @@
     <div class="container">
         <div class="nav-wrapper">
             <div class="left-side">
-                <div class="nav-link-wrapper">
-                    <a href="index.html">Home</a>
-                </div>
-
-                <div class="nav-link-wrapper active-nav-link">
+                <div class="nav-link-wrapper" id="myTopnav">
+                    <a href="index.html" class="active-nav-link">Home</a>
+                    
                     <a href="about.html">About</a>
-                </div>
-                <div class="nav-link-wrapper">
+                    
                     <a href="contact.html">Contact</a>
+
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </div>
             </div>
 
-            <div class="right-side">
-                <div class="brand">
-                    ESHA DAS
-                </div>
-            </div>
         </div>
 
-        <div class="content-wrapper">
+        <div class="content-item">
             <div class="two-column-wrapper">
-                <div class="profile-image-wrapper">
-                    <img src="images/profile.jpg" alt="">
-                </div>
+                
 
                 <div class="profile-content-wrapper">
                     <h1>Hi, thanks for visiting my site.</h1>
@@ -54,6 +50,12 @@
             </div>
         </div>
     </div>
+
+<footer class="foot">
+      <div class="footEr">
+        <center><p class="para">ESHA DAS 2020</p></center>
+      </div>
+</footer>
 
 </body>
 
